@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cmvshen66jwed"]
+
+[ext_resource type="Script" uid="uid://bnl4obl1ygtvn" path="res://splash/splash.gd" id="1_b04ml"]
+[ext_resource type="Texture2D" uid="uid://dhgi7fb0oq2li" path="res://splash/icon.svg" id="2_boi4q"]
+
+[node name="Splash" type="Control" unique_id=2068877343]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b04ml")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1430505658]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.25
+anchor_top = 0.25
+anchor_right = 0.75
+anchor_bottom = 0.75
+texture = ExtResource("2_boi4q")
+expand_mode = 1
+stretch_mode = 5
