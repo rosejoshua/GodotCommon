@@ -1,0 +1,32 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Exports
+*.pck
+*.zip
+export_presets.cfg
+
+# Mono/C# (if applicable)
+.mono/
+data_*/
+mono_crash.*.json
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# Linux
+.directory
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
