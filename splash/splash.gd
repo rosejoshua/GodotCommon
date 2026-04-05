@@ -1,13 +1,3 @@
-#settings to keep splash image as middle 1/3 of screen but not distort
-#texture_rect.anchor_left = 0.333
-#texture_rect.anchor_top = 0.333
-#texture_rect.anchor_right = 0.667
-#texture_rect.anchor_bottom = 0.667
-#texture_rect.offset_left = 0
-#texture_rect.offset_top = 0
-#texture_rect.offset_right = 0
-#texture_rect.offset_bottom = 0
-#texture_rect.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 extends Control
 @export var next_scene:PackedScene
 
